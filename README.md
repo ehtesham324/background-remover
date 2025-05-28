@@ -43,3 +43,8 @@ background_remover/
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+**🌐 Frontend (Flutter)**
+cd frontend
+flutter build web
+flutter run -d chrome
